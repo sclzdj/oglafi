@@ -1,0 +1,10 @@
+<html>
+<head>
+	<title>@yield('title','测试标题')</title>
+</head>
+<body>
+	<div>这是头部</div>
+	@yield('content','测试内容')
+	<div>这是尾部</div>
+</body>
+</html>
